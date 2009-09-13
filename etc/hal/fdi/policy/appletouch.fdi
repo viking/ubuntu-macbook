@@ -23,8 +23,8 @@
     <merge key="input.x11_options.RightEdge" type="string">1100</merge>
     <merge key="input.x11_options.BottomEdge" type="string">800</merge>
 
-    <merge key="input.x11_options.FingerLow" type="string">5</merge>
-    <merge key="input.x11_options.FingerHigh" type="string">15</merge>
+    <merge key="input.x11_options.FingerLow" type="string">10</merge>
+    <merge key="input.x11_options.FingerHigh" type="string">20</merge>
 
     <merge key="input.x11_options.TapButton1" type="string">1</merge>
     <merge key="input.x11_options.TapButton2" type="string">3</merge>
