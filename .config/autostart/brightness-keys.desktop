@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Brightness keys
+Comment=Make brightness keys work
+Exec=xrandr --output LVDS --set BACKLIGHT_CONTROL combination
+StartupNotify=false
+Terminal=false
+Hidden=false
+
