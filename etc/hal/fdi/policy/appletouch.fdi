@@ -23,8 +23,10 @@
     <merge key="input.x11_options.RightEdge" type="string">1100</merge>
     <merge key="input.x11_options.BottomEdge" type="string">800</merge>
 
-    <merge key="input.x11_options.FingerLow" type="string">10</merge>
-    <merge key="input.x11_options.FingerHigh" type="string">20</merge>
+    <merge key="input.x11_options.FingerLow" type="string">5</merge>
+    <merge key="input.x11_options.FingerHigh" type="string">15</merge>
+
+    <merge key="input.x11_options.MaxTapTime" type="string">100</merge>
 
     <merge key="input.x11_options.TapButton1" type="string">1</merge>
     <merge key="input.x11_options.TapButton2" type="string">3</merge>
@@ -35,8 +37,8 @@
     <merge key="input.x11_options.ClickFinger3" type="string">2</merge>
 
     <merge key="input.x11_options.MinSpeed" type="string">0.5</merge>
-    <merge key="input.x11_options.MaxSpeed" type="string">2.5</merge>
-    <merge key="input.x11_options.AccelFactor" type="string">0.15</merge>
+    <merge key="input.x11_options.MaxSpeed" type="string">1.5</merge>
+    <merge key="input.x11_options.AccelFactor" type="string">0.10</merge>
 
     <merge key="input.x11_options.PalmDetect" type="string">true</merge>
    </match>
