@@ -34,8 +34,8 @@
     <merge key="input.x11_options.ClickFinger2" type="string">3</merge>
     <merge key="input.x11_options.ClickFinger3" type="string">2</merge>
 
-    <merge key="input.x11_options.MinSpeed" type="string">1.5</merge>
-    <merge key="input.x11_options.MaxSpeed" type="string">3.5</merge>
+    <merge key="input.x11_options.MinSpeed" type="string">0.5</merge>
+    <merge key="input.x11_options.MaxSpeed" type="string">2.5</merge>
     <merge key="input.x11_options.AccelFactor" type="string">0.15</merge>
 
     <merge key="input.x11_options.PalmDetect" type="string">true</merge>
