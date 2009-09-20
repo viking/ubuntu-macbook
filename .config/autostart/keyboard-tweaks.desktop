@@ -2,9 +2,9 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=setxkbmap
-Comment=Tweak keyboard settings
-Exec=setxkbmap -option ctrl:nocaps -option altwin:ctrl_win
+Name=keyboard-tweaks
+Comment=Do some keyboard tweaks
+Exec=/usr/local/bin/keyboard-tweaks
 StartupNotify=false
 Terminal=false
 Hidden=false

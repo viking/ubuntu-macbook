@@ -1,0 +1,7 @@
+partial modifier_keys
+xkb_symbols "alt_win" {
+    key <LWIN> {	[ 	Alt_L,	Meta_L		]	};
+    key <RWIN> {	[ 	Alt_R,	Meta_R		]	};
+    modifier_map Mod1	{ Alt_L, Alt_R, Meta_L, Meta_R };
+//  modifier_map Mod4	{};
+};

@@ -56,6 +56,10 @@ disable-touchpad-while-typing:
 	fi
 
 keyboard-tweaks:
+	rm -fr ~/.xkb
+	cp -r .xkb ~
+	sudo cp usr/local/bin/keyboard-tweaks /usr/local/bin
 	if [ -e ~/.config/autostart ]; then \
-	  cp .config/autostart/setxkbmap.desktop ~/.config/autostart; \
+	  cp .config/autostart/keyboard-tweaks.desktop ~/.config/autostart; \
 	fi
+
