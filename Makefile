@@ -1,4 +1,4 @@
-init: fix-airport fix-capslock-led fix-isight fix-touchpad fix-eject-key fix-suspending fix-brightness-keys set-minimum-fan-speed set-laptop-mode disable-touchpad-while-typing
+init: fix-airport fix-capslock-led fix-isight fix-touchpad fix-eject-key fix-suspending fix-brightness-keys set-minimum-fan-speed set-laptop-mode disable-touchpad-while-typing keyboard-tweaks
 
 fix-airport:
 	sudo apt-get install linux-backports-modules-jaunty
@@ -53,4 +53,9 @@ disable-touchpad-while-typing:
 	sudo cp etc/hal/fdi/policy/shmconfig.fdi /etc/hal/fdi/policy
 	if [ -e ~/.config/autostart ]; then \
 	  cp .config/autostart/syndaemon.desktop ~/.config/autostart; \
+	fi
+
+keyboard-tweaks:
+	if [ -e ~/.config/autostart ]; then \
+	  cp .config/autostart/setxkbmap.desktop ~/.config/autostart; \
 	fi
